@@ -26,8 +26,9 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "app/M/dashbord/mesDemand/button.jsx"  ],
+    "**/*.tsx",
+    "app/M/dashbord/mesDemand/button.jsx"
+  ],
   "exclude": [
     "node_modules"
   ]
