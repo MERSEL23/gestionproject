@@ -1,5 +1,5 @@
 import { updateUser } from "/app/lib/actions";
-import { fetchUser } from "/app/lib/data";
+import { fetchUser} from "../../../lib/Data"
 import { fetchServices } from "/app/lib/data";
 import styles from "/app/M/ui/dashbord/singleUser/singleUser.module.css";
 import Image from "next/image";
