@@ -1,8 +1,8 @@
 
-import { fetchUser } from "/app/lib/data";
+
 import { deleteUser } from '/app/lib/actions';
 import styles from "./DeleteUser.module.css";
-import { deleteDemande } from '/app/lib/actions';
+
 import { auth } from '/app/authh';
 import { MdOutlineCancel, MdOutlineDeleteOutline } from "react-icons/md";
 import Link from "next/link";

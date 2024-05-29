@@ -1,5 +1,5 @@
 
-import { fetchUser } from "/app/lib/data";
+
 
 import styles from "./Delete.module.css";
 import { deleteDemande } from '/app/lib/actions';
