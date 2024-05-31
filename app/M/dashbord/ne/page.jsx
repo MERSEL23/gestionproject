@@ -58,11 +58,13 @@ const NePage =async ({searchParams}) => {
             <option>موظف</option>
             </select>
             <label htmlFor="myInput">المسؤول عنه:</label>
-          <select name="user_responsabe">
-            <option hidden></option>
-            {services.map((service) => ( <option>{service.service_name}</option>))}
-           
-               </select></div>
+            <select name="user_responsabe">
+  <option hidden></option>
+  {services.map((service) => (
+    <option key={service.id}>{service.service_name}</option>
+  ))}
+</select>
+</div>
 
       
               <label htmlFor="fileInput" >الصورة:</label> 

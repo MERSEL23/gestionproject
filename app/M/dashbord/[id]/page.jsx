@@ -55,9 +55,11 @@ const SingleUserPage = async ({ params,searchParams }) => {
          
           <select name="job">
             <option hidden></option>
-            {services.map((service) => ( <option>{service.service_name}</option>))}
+            {services.map((service) => (
+              <option key={service.id}>{service.service_name}</option>
+            ))}
             <option>موظف</option>
-            </select>
+          </select>
 
           <label>المسؤول المباشر</label>
          
