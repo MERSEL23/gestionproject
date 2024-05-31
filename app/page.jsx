@@ -1,5 +1,5 @@
 //import LoginForm from '/components/LoginForm';
-import { fetchUser } from '/app/lib/Data';
+import { fetchUser } from '/app/lib/data';
 import { fetchDemand } from './lib/Data';
 import LoginPage from './login/page';
 
