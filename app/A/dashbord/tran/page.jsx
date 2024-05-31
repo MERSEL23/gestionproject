@@ -52,6 +52,7 @@ const Transaction = async() => {
                     src={demande.user_id.img || "/image/noavatar.jpg"}
                     width="40"
                     height="40"
+                    alt=''
                   /> 
               {demande.user_id.user_familly_name} {demande.user_id.username} 
                 </div>

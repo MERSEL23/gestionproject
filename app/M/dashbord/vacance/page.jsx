@@ -57,7 +57,7 @@ const Vacance = async({searchParams}) => {
              <td>
                <div className={style.user}>
                <Image  className={style.userImage} 
-               src={ employee.img||"/image/noavatar.jpg" } width="50" height="50" />
+               src={ employee.img||"/image/noavatar.jpg" } width="50" height="50" alt=''/>
                {employee.user_familly_name} {employee.username} 
                </div>
              </td>

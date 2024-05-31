@@ -44,6 +44,7 @@ const Employe = async({searchParams}) => {
                       src={employee.img || "/image/noavatar.jpg"}
                       width="50"
                       height="50"
+                      alt=''
                     />
                     {employee.user_familly_name} {employee.username}
                   </div>
@@ -61,6 +62,7 @@ const Employe = async({searchParams}) => {
                 <td>
                   <div className={style.user}>
                     <Image
+                    alt=''
                       className={style.userImage}
                       src={user.img || "/image/noavatar.jpg"}
                       width="50"

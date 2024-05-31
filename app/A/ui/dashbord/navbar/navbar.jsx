@@ -10,10 +10,11 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
     
-    <img
+    <Image
+          
           className={styles.userImage}
           src="/image/جامعة غرداية كلية العلوم والتكنولوجيا (3).png"
-          
+          alt=''
         />
     </div>
   );
