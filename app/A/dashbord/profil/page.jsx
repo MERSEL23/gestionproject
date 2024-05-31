@@ -1,7 +1,7 @@
 import styles from '/app/A/ui/dashbord/profil/profil.module.css';
 import Image from 'next/image';
 import { updateUserpassword } from '/app/lib/actions';
-import { fetchUser } from '/app/lib/Data';
+import { fetchUser } from '/app/lib/data';
 import { auth } from '/app/authh';
 
 

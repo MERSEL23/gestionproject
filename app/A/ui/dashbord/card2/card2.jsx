@@ -1,6 +1,6 @@
 import { MdOutlineGrading, MdSupervisedUserCircle } from 'react-icons/md'
 import { auth } from '/app/authh';
-import {  countEmployeeswork} from '/app/lib/Data';
+import {  countEmployeeswork} from '/app/lib/data';
 import styles from './card2.module.css'
 
 const Card2 = async() => {

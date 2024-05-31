@@ -1,7 +1,7 @@
 import style from '/app/A/ui/dashbord/employes/employes.module.css';
 import Search from '/app/A/ui/dashbord/search/search';
 import { auth } from '/app/authh';
-import { fetchMyEmployee ,fetchEmployeD} from '/app/lib/Data';
+import { fetchMyEmployee ,fetchEmployeD} from '/app/lib/data';
 import Image from 'next/image';
 
 

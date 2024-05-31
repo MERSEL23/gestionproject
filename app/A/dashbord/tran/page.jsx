@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import style from '/app/A/ui/dashbord/transaction/transaction.module.css';
 import { auth } from '/app/authh';
-import { Demandes } from '/app/lib/Data';
+import { Demandes } from '/app/lib/data';
 import { StatusAcceptDemande, StatusRefuseDemande } from '../../../lib/actions';
 
 
