@@ -1,5 +1,5 @@
 import style from '/app/M/ui/dashbord/vacances/vacances.module.css';
-import { fetchMyEmployeeInVacance } from '/app/lib/Data';
+import { fetchMyEmployeeInVacance } from '/app/lib/data';
 import Search from '/app/M/ui/dashbord/search/search';
 import Image from 'next/image';
 import Link from 'next/link';

@@ -3,7 +3,7 @@ import styles from '/app/M/ui/dashbord/profil/profil.module.css';
 import { auth } from '/app/authh';
 import Image from 'next/image';
 import { updateUserpassword } from '/app/lib/actions';
-import { fetchUser } from '/app/lib/Data';
+import { fetchUser } from '/app/lib/data';
 
 
 const ProfilPage = async () => {

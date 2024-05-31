@@ -1,4 +1,4 @@
-import { fetchUser } from '/app/lib/Data';
+import { fetchUser } from '/app/lib/data';
 import Card from '../ui/dashbord/card/card';
 import Card2 from '../ui/dashbord/card2/card2';
 import Card3 from '../ui/dashbord/card3/card3';

@@ -1,4 +1,4 @@
-import { fetchMyEmployee } from '/app/lib/Data';
+import { fetchMyEmployee } from '/app/lib/data';
 import style from '/app/responsableD/ui/dashbord/employes/employes.module.css';
 import Search from '/app/responsableD/ui/dashbord/search/search';
 import Image from 'next/image';

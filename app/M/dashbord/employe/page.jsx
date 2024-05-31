@@ -1,5 +1,5 @@
 
-import { fetchUsers } from '/app/lib/Data';
+import { fetchUsers } from '/app/lib/data';
 import style from '/app/M/ui/dashbord/employes/employes.module.css';
 import Search from '/app/M/ui/dashbord/search/search';
 import { deleteUser } from '/app/lib/actions';

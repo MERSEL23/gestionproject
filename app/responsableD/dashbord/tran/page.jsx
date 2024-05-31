@@ -2,7 +2,7 @@ import Image from 'next/image';
 import style from '/app/responsableD/ui/dashbord/transaction/transaction.module.css';
 //import { fetchMyEmployee, fetchUser } from '/app/lib/Data';
 import { auth } from '/app/authh';
-import { Demandes } from '/app/lib/Data';
+import { Demandes } from '/app/lib/data';
 import { StatusAcceptDemande, StatusRefuseDemande } from '/app/lib/actions';
 
 const Transaction = async() => {

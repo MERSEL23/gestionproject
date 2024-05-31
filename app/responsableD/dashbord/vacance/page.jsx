@@ -1,8 +1,8 @@
 
-import { fetchMyEmployeeInVacance } from '/app/lib/Data';
+import { fetchMyEmployeeInVacance } from '/app/lib/data';
 import style from '/app/responsableD/ui/dashbord/vacances/vacances.module.css';
 import Image from 'next/image';
-import { fetchMyEmployee } from '/app/lib/Data';
+import { fetchMyEmployee } from '/app/lib/data';
 import Search from '/app/responsableD/ui/dashbord/search/search';
 
 import { auth } from '/app/authh';

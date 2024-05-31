@@ -1,6 +1,6 @@
 
 import { addService, updateService } from '../../../lib/actions';
-import { fetchServices } from '/app/lib/Data';
+import { fetchServices } from '/app/lib/data';
 //import { fetchService } from '/app/lib/Data';
 import style from '/app/M/ui/dashbord/services/services.module.css';
 
