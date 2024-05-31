@@ -1,7 +1,7 @@
 import { MdOutlinePlaylistRemove, MdSupervisedUserCircle } from 'react-icons/md'
 import styles from './card3.module.css'
 import { auth } from '/app/authh';
-import {  countEmployeesNotwork  } from '/app/lib/Data';
+import {  countEmployeesNotwork  } from '/app/lib/data';
 const Card3 = async () => {
  const {user} = await auth();
     const number = await countEmployeesNotwork(user.job);  

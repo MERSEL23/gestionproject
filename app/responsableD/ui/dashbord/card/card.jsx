@@ -2,7 +2,7 @@
 import { MdNumbers } from 'react-icons/md';
 import styles from './card.module.css'
 import { auth } from '/app/authh';
-import {  countEmployees } from '/app/lib/Data';
+import {  countEmployees } from '/app/lib/data';
 const Card = async  () => {
   const {user} = await auth();
   const number =  await  countEmployees(user.job);
