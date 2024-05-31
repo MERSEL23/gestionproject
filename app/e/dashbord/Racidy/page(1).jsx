@@ -1,4 +1,4 @@
-import Racid from '@/app/e/ui/dashbord/racid/racid';
+import Racid from '/app/e/ui/dashbord/racid/racid';
 
 const RacidyPage = () => {
   return (

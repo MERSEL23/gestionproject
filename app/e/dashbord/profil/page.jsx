@@ -1,6 +1,6 @@
 import { auth } from '/app/authh';
 import styles from '/app/e/ui/dashbord/profil/profil.module.css';
-import { fetchUser } from '/app/lib/Data';
+import { fetchUser } from '/app/lib/data';
 import { updateUserpassword } from '/app/lib/actions';
 import { IoEyeOutline, IoEyeOffOutline } from 'react-icons/io5';
 

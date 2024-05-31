@@ -1,7 +1,7 @@
 
 import styles from '/app/M/ui/dashbord/ne/ne.module.css';
 import { addUser } from '/app/lib/actions';
-import { fetchServices } from '/app/lib/Data';
+import { fetchServices } from '/app/lib/data';
 
 
 

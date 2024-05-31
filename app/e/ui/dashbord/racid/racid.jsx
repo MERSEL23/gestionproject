@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from './racid.module.css';
 import { MdSupervisedUserCircle } from 'react-icons/md';
 import { auth } from '../../../../authh';
-import { fetchUser } from '/app/lib/Data';
+import { fetchUser } from '/app/lib/data';
 const Racid = async() => {
   const {user} = await auth();
   const users = await fetchUser(user.id); 

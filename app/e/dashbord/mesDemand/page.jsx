@@ -2,7 +2,7 @@
 import styles from '/app/e/ui/dashbord/mesDemand/users.module.css';
 import Link from 'next/link';
 import { MdFileDownload, MdOutlineDeleteOutline} from 'react-icons/md';
-import { fetchDemande } from '/app/lib/Data';
+import { fetchDemande } from '/app/lib/data';
 import { deleteDemande } from '/app/lib/actions';
 import { auth } from '/app/authh';
 import Swal from 'sweetalert2';
