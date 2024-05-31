@@ -4,13 +4,14 @@ import { usePathname } from 'next/navigation';
 import styles from './navbar.module.css';
 
 import { IoLanguageSharp } from 'react-icons/io5';
+import Image from 'next/image';
 
 const Navbar = () => {
   const pathname = usePathname();
   return (
     <div className={styles.container}>
     
-    <img
+    <Image
           className={styles.userImage}
           src="/image/جامعة غرداية كلية العلوم والتكنولوجيا (3).png"
           alt=''

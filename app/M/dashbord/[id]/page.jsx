@@ -65,7 +65,7 @@ const SingleUserPage = async ({ params,searchParams }) => {
          
           <select name="user_responsabe">
             <option hidden></option>
-            {services.map((service) => ( <option>{service.service_name}</option>))}
+            {services.map((service) => ( <option key={service.id}>{service.service_name}</option>))}
            
                </select>
 

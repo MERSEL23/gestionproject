@@ -54,7 +54,7 @@ const NePage =async ({searchParams}) => {
         <label htmlFor="myInput">المنصب:</label>
           <select name="job">
             <option hidden></option>
-            {services.map((service) => ( <option>{service.service_name}</option>))}
+            {services.map((service) => (     <option key={service.id}>{service.service_name}</option>))}
             <option>موظف</option>
             </select>
             <label htmlFor="myInput">المسؤول عنه:</label>
